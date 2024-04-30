@@ -1,0 +1,98 @@
+@font-face {
+    font-family:'moni' ;
+    src: url(font/idroid.otf) format(opentype);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #84E1AD;
+}
+
+.cabeca{
+    background: linear-gradient(to bottom, rgb(180,221,180) 0%,rgb(131,199,131) 17%,rgb(82,177,82) 33%,rgb(0,138,0) 67%,rgb(0,87,0) 83%,rgb(0,36,0) 100%);
+    
+
+}
+
+.cabeca > h1{
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabeca > p{
+    text-align: center;
+    padding-top:35px ;
+    color:white;
+    padding-bottom: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu > a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.conteudo > h1{
+  font-family: 'moni', Times, serif; 
+  padding-left: 20px; 
+  color: #528468;
+  
+
+}
+
+.conteudo > h2{
+    font-family: 'moni', Times, serif;  
+    padding-left: 20px;
+    color: #528468;
+}
+
+.conteudo{
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    padding-top: 1px;
+    padding-right: 10px;
+    
+
+}
+
+.conteudo > p{
+    text-align: justify;
+    text-indent: 1cm;
+    padding-left: 10px;
+}
+
+img{
+    
+    padding: 75px;
+}
+
+#nova   {
+  padding-left: 300px;   
+}
+
+#video{
+    width: 650px;
+    height: 350px;
+    padding-left: 200px;
+    
+    
+}
+    
+.video{
+    background-color: #1A5C38;
+    background-attachment: fixed;
+}
+

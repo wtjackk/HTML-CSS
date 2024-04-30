@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+
+    <style>
+        /*
+        #  = id
+        .  = class
+        :  = psseudo-class
+        :: = psseudo-elements
+        >  = irmão da div
+        */
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:visited{
+            color: rgb(4, 0, 252);
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(98, 207, 107);
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '[link]';
+            color: rgba(0, 0, 0, 0.507);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/wtjackk">Repositorio GitHub</a></li>
+        <li><a href="https://www.auaonline.com.br/">Meu canal no youtube</a></li>
+    </ul>
+</body>
+</html>
